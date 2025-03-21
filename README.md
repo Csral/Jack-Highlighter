@@ -7,4 +7,4 @@ Supports all keywords, operators and literals. Highlights as per your vs code th
 
 ## Known issues
 
-The operator '=' is highlighted as assignment operator if not within parentheses. This means ```( =``` or ```= )``` would be considered assignment operators.
+Raise if any found.
