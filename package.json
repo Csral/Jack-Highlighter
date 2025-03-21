@@ -25,5 +25,6 @@
       "scopeName": "source.jack",
       "path": "./syntaxes/jack.tmLanguage.json"
     }]
-  }
+  },
+  "publisher": "Csral"
 }
