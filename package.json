@@ -16,6 +16,10 @@
       "extensions": [".jack"],
       "configuration": "./language-configuration.json"
     }],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Csral/Jack-Highlighter"
+    },
     "grammars": [{
       "language": "jack",
       "scopeName": "source.jack",
