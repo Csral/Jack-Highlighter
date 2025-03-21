@@ -1,0 +1,25 @@
+{
+  "name": "jack-highlighter",
+  "displayName": "Jack-Highlighter",
+  "description": "Syntax highlighting for Jack VM programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "jack",
+      "aliases": ["Jack (VM)", "jack"],
+      "extensions": [".jack"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "jack",
+      "scopeName": "source.jack",
+      "path": "./syntaxes/jack.tmLanguage.json"
+    }]
+  }
+}
