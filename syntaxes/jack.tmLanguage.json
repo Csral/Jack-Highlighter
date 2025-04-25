@@ -90,7 +90,7 @@
 					"match": "\\b[0-9]+\\b"
 				},
 				{
-					"name": "constant.other",
+					"name": "constant.language",
 					"match": "\\b(true|false)\\b"
 				}
 			]
